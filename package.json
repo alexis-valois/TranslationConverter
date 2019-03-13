@@ -1,0 +1,10 @@
+{
+   "name": "TranslationConverter",
+   "version": "1.0.0",
+   "author": "Alexis Valois-Adamowicz",
+   "license": "MIT",
+   "scripts": {
+      "flatten": "node flatten.js",
+      "flatten-dbg": "node --inspect-brk flatten.js"
+   }
+}

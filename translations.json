@@ -1,0 +1,504 @@
+{
+   "fr": {
+      "absence": {
+         "absenceDetailLabel": "Détails de l’absence",
+         "createAbsenceLabel": "Créer une absence",
+         "absenceMenuLabel": "Absence",
+         "cancelAbsence": "Supprimer l'absence",
+         "editAbsence": "Modifier l’absence",
+         "saveAbsence": "OK",
+         "viewAbsence": "Voir les détails de l’absence",
+         "reason": {
+            "placeholder": "Saisir la raison",
+            "headers": {
+               "code": "Code",
+               "description": "Description",
+               "banks": "Banques"
+            }
+         },
+         "positionOnWorkDay": {
+            "wdStart": "Début du jour de travail",
+            "wdEnd": "Fin du jour de travail",
+            "pieceStart": "Début de la pièce",
+            "pieceEnd": "Fin de la pièce"
+         },
+         "form": {
+            "period": "Période",
+            "reason": "Raison",
+            "note": "Commentaires",
+            "employee": "Employé",
+            "editAbsence": "Mode Édition"
+         },
+         "period": {
+            "allDay": "Toute la journée",
+            "noEndDate": "Jusqu'à nouvel ordre",
+            "startOfDay": "Début de la journée",
+            "endOfDay": "Fin de la journée"
+         }
+      },
+      "arrivals": {
+         "absenceStatus": "Absence %{type}",
+         "pageTitle": "Arrivées",
+         "reportedTab": "Confirmées",
+         "upcomingTab": "Prévues",
+         "signInLabel": "Pointer",
+         "pluralMinutesSeparatorFormat": "Arrivés dans plus de %{time} minutes",
+         "singularHourSeparatorFormat": "Arrivés dans plus d'une heure",
+         "pluralHoursSeparatorFormat": "Arrivés dans plus de %{time} heures",
+         "blockedStatusLabel": "Action requise",
+         "blockedAtStatusLabel": "Action requise – Arrive à %{time}",
+         "blockedInStatusLabel": "Action requise – Arrive dans %{time} minutes",
+         "lateStatusLabel": "Retard de %{time} minutes",
+         "lateStatusMessage": "En retard",
+         "signedInStatusLabel": "A pointé",
+         "signedInStatusLabelWithReportTime": "A pointé à %{reportTime}",
+         "signedInStatusMessage": "A pointé",
+         "soonStatusMessage": "Prise de service dans %{time} min",
+         "normalStatusLabel": "%{time} min",
+         "reportingAtStatusLabel": "Arrive à %{time}",
+         "reportingInStatusLabel": "Se rapporte dans %{time} minutes",
+         "activityOnBlocStatusLabel": "[%{activityID}] jusqu'à %{time}",
+         "activityStatusLabel": "%{activityID} jusqu'à %{time}",
+         "availableStatusLabel": "Disponible jusqu'à %{time}",
+         "signedOutStatus": "A terminé à %{time}",
+         "delayedStatus": "En retard de %{time} minutes",
+         "workCompletedStatus": "A terminé à %{time}",
+         "notWorkingStatusLabel": "Ne travaille pas",
+         "moreActionsButtonText": "Autres actions",
+         "findEmployeePlaceHolder": "Chercher un employé",
+         "pluralMinutesPeriodLabel": "%{time} prochaines minutes",
+         "singularHourPeriodLabel": "Prochaine heure",
+         "pluralHoursPeriodLabel": "%{time} prochaines heures",
+         "allUpcomingFilter": "Toutes",
+         "blockedFilter": "Action requise",
+         "clearSignIn": "Effacer pointage",
+         "toAssignStatusLabel": "En attente d'affectation"
+      },
+      "assignment": {
+         "assignmentLabel": "Affectation",
+         "displayIdPlannedText": "Prévue : ",
+         "overtimeAbr": "TS : ",
+         "divisionLabel": "Division",
+         "type": {
+            "notWorking": "Ne travaille pas",
+            "pending": "En attente d'affectation",
+            "notPublished": "Le détail de l'affectation n'est pas encore prêt"
+         },
+         "planned": "Affectation prévue",
+         "printCardButtonText": "Carte d'agent",
+         "actual": "Affectation réelle",
+         "note": "Note"
+      },
+      "navMenu": {
+         "dashboard": {
+            "dashboard": "Tableau de bord"
+         },
+         "crew": {
+            "sectionTitle": "Agents",
+            "assignments": "Affectations",
+            "arrivals": "Arrivées",
+            "requests": "Requêtes",
+            "manpower": "Main-d'oeuvre"
+         },
+         "vehicles": {
+            "sectionTitle": "Véhicules",
+            "yard": "Dépôt",
+            "walkTheYard": "Tournée du dépôt"
+         },
+         "fleet": {
+            "fleet": "Parc"
+         },
+         "events": {
+            "events": "Événements"
+         },
+         "reports": {
+            "reports": "Éditions"
+         }
+      },
+      "messages": {
+         "hasMsgLabel": "Messages",
+         "noMsgLabel": "Aucun message",
+         "deliveryConfirmationLabel": "Validation de la transmission du message requise",
+         "deliveredButtonText": "Signaler comme transmis",
+         "toEmployeeLabel": "À l'employé",
+         "employeeMessageLabel": "Messages de l'employé",
+         "serviceLabel": "Service",
+         "startDate": "Du %{startDate}",
+         "endDate": " au %{endDate}",
+         "activeMessages": "En vigueur",
+         "archivedMessages": "Archivés",
+         "ackOn": "Transmis le %{date} à %{time}"
+      },
+      "date": {
+         "yesterday": "Hier",
+         "today": "Aujourd'hui",
+         "tomorrow": "Demain"
+      },
+      "employee": {
+         "contactInfoButtonText": "Coordonnées",
+         "profileInfoButtonText": "Info sur l'employé",
+         "inServiceWarning": "Opérateur en service",
+         "mainPhone": "Tél.",
+         "phoneWithIndex": "Téléphone %{index}",
+         "email": "Courriel",
+         "address": "Adresse",
+         "division": "Division",
+         "crewBase": "Dépôt agent",
+         "teamLeader": "Responsable d'équipe",
+         "hiringDate": "Date d'embauche",
+         "status": "Situation",
+         "roster": "Roulement",
+         "jobClass": "Classe d'emploi",
+         "viewProfile": "Voir fiche employé"
+      },
+      "employeeFile": {
+         "assignments": "Affectations",
+         "messages": "Messages"
+      },
+      "global": {
+         "cancel": "Annuler",
+         "colon": " : ",
+         "contextMenu": {
+            "cancel": "Supprimer",
+            "edit": "Modifier",
+            "viewDetails": "Voir les détails"
+         },
+         "continue": "Continuer",
+         "confirm": "Confirmer",
+         "close": "Fermer",
+         "create": "Enregistrer",
+         "error": "Erreur",
+         "information": "Information",
+         "mandatoryFields": "Veuillez remplir tous les champs obligatoires.",
+         "no": "non",
+         "noResultMessage": "Aucun résultat",
+         "ok": "OK",
+         "optional": "Facultatifs",
+         "unknown": "S. O.",
+         "yes": "oui",
+         "warning": "Avertissement"
+      },
+      "globalSearch": {
+         "searchPlaceholder": "Chercher un employé",
+         "moreResultMessage": "%{resultsCount} résultats supplémentaire disponible"
+      },
+      "missout": {
+         "title": "Réattribuer le travail",
+         "missingOperatorsTitle": "Opérateurs manquant au travail",
+         "reserveGroupTitle": "Opérateurs de réserve",
+         "uncoveredWork": "À attribuer"
+      },
+      "yard": {
+         "activity": {
+            "activities": "Activités",
+            "currentActivity": "Activité courante",
+            "nextActivity": "Prochaine activité",
+            "noUpcomingActivity": "Aucune activité à venir",
+            "remainingTimeBeforeActivity": "commençant dans %{remainingHours}h%{remainingMinutes}"
+         },
+         "additional": "Caractéristique additionnelle du véhicule",
+         "assignButtonText": "Affecter",
+         "blocks": "Voitures",
+         "blockErrorMessagesTitle": "Il y a %{messageCount} erreurs",
+         "blockFilterTitle": {
+            "uncovered": "À couvrir",
+            "issues": "Problèmes",
+            "covered": "Couvertes",
+            "all": "Toutes"
+         },
+         "blocksToCoverButtonText": "Voitures à couvrir",
+         "blockVehicleIdPlaceholder": "Spécifiez le véhicule",
+         "blockWarningMessagesTitle": "Il y a %{messageCount} avertissements",
+         "dayAbbreviation": "j",
+         "end": "Fin",
+         "enterLane": "Entrez ou sélectionnez la voie",
+         "hourAbbreviation": "h",
+         "in": "dans",
+         "included": "Inclus",
+         "inProgress": "En cours",
+         "lane": "Voie",
+         "location": "Emplacement",
+         "minuteAbbreviation": "min",
+         "missing": "Manquant",
+         "noCoveredBlockFound": "Aucune voiture couverte pour cette période.",
+         "noBlockFound": "Auncune voiture pour cette période.",
+         "noBlockToCoverFound": "Aucune voiture à couvrir pour cette période.",
+         "noBlockWithIssuesFound": "Aucune voiture ayant un problème pour cette période.",
+         "notParked": "N'est pas stationné",
+         "ownerGarage": "Dépôt d'appartenance",
+         "parkVehicle": "Stationner le véhicule",
+         "park": "Stationner",
+         "rank": "Place",
+         "removeVehicle": "Retirer le véhicule",
+         "required": "Requis",
+         "route": "Ligne",
+         "routes": "Lignes(s)",
+         "selectPeriod": "Sélectionnez une période",
+         "selectYard": "Sélectionnez un dépôt",
+         "start": "Début",
+         "to": "à",
+         "transferTo": "Transférer à",
+         "upcomingPeriods": "Prochaines périodes",
+         "upcomingReturns": "Prochaines rentrées",
+         "vehicleTransferTooltipTitle": "%{id} à %{startTime}",
+         "vehicleActivityTooltipTitle": "Voiture %{id} à %{startTime}",
+         "vehicleInformation": "Informations sur le véhicule",
+         "vehicleParkingDetailsTitle": "Retour",
+         "vehicleDoesNotExist": "Le véhicule n'existe pas",
+         "vehicleSearchPlaceholder": "Trouver un véhicule",
+         "withdrawal": "Retrait",
+         "yardTitle": "Dépôt"
+      }
+   },
+   "en": {
+      "absence": {
+         "absenceDetailLabel": "Absence Details",
+         "createAbsenceLabel": "Create Absence",
+         "absenceMenuLabel": "Absence",
+         "cancelAbsence": "Cancel absence",
+         "editAbsence": "Edit Absence",
+         "saveAbsence": "OK",
+         "viewAbsence": "View Absence Details",
+         "reason": {
+            "placeholder": "Enter reason",
+            "headers": {
+               "code": "Code",
+               "description": "Description",
+               "banks": "Banks"
+            }
+         },
+         "positionOnWorkDay": {
+            "wdStart": "Start of workday",
+            "wdEnd": "End of workday",
+            "pieceStart": "Start of piece",
+            "pieceEnd": "End of piece"
+         },
+         "form": {
+            "period": "Period",
+            "reason": "Reason",
+            "note": "Comments",
+            "employee": "Employee",
+            "editAbsence": "Edit Mode"
+         },
+         "period": {
+            "allDay": "All day",
+            "noEndDate": "Until further notice",
+            "startOfDay": "Start of day",
+            "endOfDay": "End of day"
+         }
+      },
+      "arrivals": {
+         "absenceStatus": "Absence %{type}",
+         "pageTitle": "Arrivals",
+         "reportedTab": "Reported",
+         "upcomingTab": "Expected",
+         "signInLabel": "Sign In",
+         "pluralMinutesSeparatorFormat": "Reporting in more than %{time} minutes",
+         "singularHourSeparatorFormat": "Reporting in more than 1 hour",
+         "pluralHoursSeparatorFormat": "Reporting in more than %{time} hours",
+         "blockedStatusLabel": "Action needed",
+         "blockedAtStatusLabel": "Action needed - Reporting at %{time}",
+         "blockedInStatusLabel": "Action needed - Reporting in %{time} minutes",
+         "lateStatusLabel": "Late by %{time} minutes",
+         "lateStatusMessage": "Late",
+         "signedInStatusLabel": "Signed in",
+         "signedInStatusLabelWithReportTime": "Signed in at %{reportTime}",
+         "signedInStatusMessage": "Signed in",
+         "soonStatusMessage": "Reporting in %{time} min",
+         "normalStatusLabel": "%{time} min",
+         "reportingAtStatusLabel": "Reporting at %{time}",
+         "reportingInStatusLabel": "Reporting in %{time} minutes",
+         "activityOnBlocStatusLabel": "[%{activityID}] until %{time}",
+         "activityStatusLabel": "%{activityID} until %{time}",
+         "availableStatusLabel": "Available until %{time}",
+         "signedOutStatus": "Signed out at %{time}",
+         "delayedStatus": "Delayed by %{time} minutes",
+         "workCompletedStatus": "Work completed at %{time}",
+         "notWorkingStatusLabel": "Not working",
+         "moreActionsButtonText": "More Actions",
+         "findEmployeePlaceHolder": "Find employee",
+         "pluralMinutesPeriodLabel": "Next %{time} minutes",
+         "singularHourPeriodLabel": "Next hour",
+         "pluralHoursPeriodLabel": "Next %{time} hours",
+         "allUpcomingFilter": "All",
+         "blockedFilter": "Action needed",
+         "clearSignIn": "Remove Sign Time",
+         "toAssignStatusLabel": "Pending assignment"
+      },
+      "assignment": {
+         "assignmentLabel": "Assignment",
+         "displayIdPlannedText": "Planned: ",
+         "overtimeAbr": "OT : ",
+         "divisionLabel": "Division",
+         "type": {
+            "notWorking": "Not working",
+            "pending": "Pending assignment",
+            "notPublished": "Assignment details are not available yet"
+         },
+         "planned": "Planned",
+         "printCardButtonText": "Time Card",
+         "actual": "Actual",
+         "note": "Note"
+      },
+      "navMenu": {
+         "dashboard": {
+            "dashboard": "Dashboard"
+         },
+         "crew": {
+            "sectionTitle": "Crew",
+            "assignments": "Assignments",
+            "arrivals": "Arrivals",
+            "requests": "Requests",
+            "manpower": "Manpower"
+         },
+         "vehicles": {
+            "sectionTitle": "Vehicles",
+            "yard": "Yard",
+            "walkTheYard": "Walk the Yard"
+         },
+         "fleet": {
+            "fleet": "Fleet"
+         },
+         "events": {
+            "events": "Events"
+         },
+         "reports": {
+            "reports": "Reports"
+         }
+      },
+      "messages": {
+         "hasMsgLabel": "Messages",
+         "noMsgLabel": "No message",
+         "deliveryConfirmationLabel": "Delivery confirmation required",
+         "deliveredButtonText": "Mark as Delivered",
+         "toEmployeeLabel": "To employee",
+         "employeeMessageLabel": "Employee Messages",
+         "serviceLabel": "Service",
+         "startDate": "From %{startDate}",
+         "endDate": " to %{endDate}",
+         "activeMessages": "Active",
+         "archivedMessages": "Archived",
+         "ackOn": "Delivered on %{date} at %{time}"
+      },
+      "date": {
+         "yesterday": "Yesterday",
+         "today": "Today",
+         "tomorrow": "Tomorrow"
+      },
+      "employee": {
+         "contactInfoButtonText": "Contact Info",
+         "profileInfoButtonText": "Employee Info",
+         "inServiceWarning": "Operator in service",
+         "mainPhone": "Phone",
+         "phoneWithIndex": "Phone %{index}",
+         "email": "Email",
+         "address": "Address",
+         "division": "Division",
+         "crewBase": "Crew base",
+         "teamLeader": "Team Leader",
+         "hiringDate": "Hiring date",
+         "status": "Status",
+         "roster": "Roster",
+         "jobClass": "Job Class",
+         "viewProfile": "View Employee Info"
+      },
+      "employeeFile": {
+         "assignments": "Assignments",
+         "messages": "Messages"
+      },
+      "global": {
+         "cancel": "Cancel",
+         "colon": ": ",
+         "contextMenu": {
+            "cancel": "Cancel",
+            "edit": "Edit",
+            "viewDetails": "View Details"
+         },
+         "continue": "Continue",
+         "confirm": "Confirm",
+         "close": "Close",
+         "create": "Create",
+         "error": "Error",
+         "information": "Information",
+         "mandatoryFields": "All mandatory fields must be filled.",
+         "no": "no",
+         "noResultMessage": "No results found.",
+         "ok": "OK",
+         "optional": "Optional",
+         "unknown": "N/A",
+         "yes": "yes",
+         "warning": "Warning"
+      },
+      "globalSearch": {
+         "searchPlaceholder": "Search employee",
+         "moreResultMessage": "%{resultsCount} additional results available"
+      },
+      "missout": {
+         "title": "Reassign Work",
+         "missingOperatorsTitle": "Missing Operators",
+         "reserveGroupTitle": "Standby Operators",
+         "uncoveredWork": "Uncovered work"
+      },
+      "yard": {
+         "activity": {
+            "activities": "Activities",
+            "currentActivity": "Current activity",
+            "nextActivity": "Next activity",
+            "noUpcomingActivity": "No upcoming activity",
+            "remainingTimeBeforeActivity": "in %{remainingHours}h%{remainingMinutes} from now"
+         },
+         "additional": "Additional vehicle characteristic",
+         "assignButtonText": "Assign",
+         "blocks": "Blocks",
+         "blockErrorMessagesTitle": "There are %{messageCount} errors",
+         "blockFilterTitle": {
+            "uncovered": "To Cover",
+            "issues": "Issues",
+            "covered": "Covered",
+            "all": "All"
+         },
+         "blocksToCoverButtonText": "Blocks to Cover",
+         "blockVehicleIdPlaceholder": "Enter the vehicle",
+         "blockWarningMessagesTitle": "There are %{messageCount} warnings",
+         "dayAbbreviation": "d",
+         "end": "End",
+         "enterLane": "Enter or select the lane",
+         "hourAbbreviation": "h",
+         "in": "in",
+         "included": "Included",
+         "inProgress": "In progress",
+         "lane": "Lane",
+         "location": "Location",
+         "minuteAbbreviation": "min",
+         "missing": "Missing",
+         "noCoveredBlockFound": "No covered blocks for this period.",
+         "noBlockFound": "No blocks for this period.",
+         "noBlockToCoverFound": "No blocks to cover for this period.",
+         "noBlockWithIssuesFound": "No blocks with issues for this period.",
+         "notParked": "Not parked",
+         "ownerGarage": "Owner garage",
+         "parkVehicle": "Park vehicle",
+         "park": "Park",
+         "rank": "Space",
+         "removeVehicle": "Remove vehicle",
+         "required": "Required",
+         "route": "Route",
+         "routes": "Route(s)",
+         "selectPeriod": "Select a period",
+         "selectYard": "Select a garage",
+         "start": "Start",
+         "to": "to",
+         "transferTo": "Transfer to",
+         "upcomingPeriods": "Upcoming periods",
+         "upcomingReturns": "Upcoming Returns",
+         "vehicleTransferTooltipTitle": "%{id} at %{startTime}",
+         "vehicleActivityTooltipTitle": "Block %{id} at %{startTime}",
+         "vehicleInformation": "Vehicle information",
+         "vehicleParkingDetailsTitle": "Back",
+         "vehicleDoesNotExist": "The vehicle does not exist",
+         "vehicleSearchPlaceholder": "Find vehicle",
+         "withdrawal": "Withdrawal",
+         "yardTitle": "Yard"
+      }
+   }
+}
