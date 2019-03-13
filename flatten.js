@@ -21,19 +21,16 @@ fs.writeFileSync("./out.json", JSON.stringify(outputData), 'utf8');
 console.log('file out.json saved.');
 
 function flattenData(data) {
-   var result = {};
-   function recurse (cur, prop) {
-     if (Object(cur) !== cur) {
+   let result = {};
+
+   const recurse = (cur, prop) => {
+     if (Object(cur) !== cur)
        result[prop] = cur;
-     } else {
-
-           for (var p in cur) {
-
-             recurse(cur[p], prop ? prop + "." + p : p);
-           }
-           
-       }
+     else
+       for (var p in cur)
+         recurse(cur[p], prop ? prop + "." + p : p);
     }
+
     recurse(data, "");
     return result;
 }
