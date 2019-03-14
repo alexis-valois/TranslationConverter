@@ -1,5 +1,6 @@
 const fs = require('fs');
 const os = require('os');
+const windows1252 = require('windows-1252');
 
 if (!process.argv[2]) {
    console.error('Must specify an input file');
@@ -20,24 +21,24 @@ for ( let sectionName in data.fr ) {
 }
 
 function generateRFile(sectionName) {
-
+   const fileName = "DW" + sectionName.charAt(0).toUpperCase() + sectionName.slice(1);
    let moduleName = '';
 
    if (sectionName === 'yard')
-      moduleName = 'dw_v';
+      moduleName = 'dwv';
    else if (sectionName === 'global')
       moduleName = 'dw';
    else
-      moduleName = 'dw_c';
+      moduleName = 'dwc';
 
-   let rFile = `resources giro.${moduleName}:${sectionName}${os.EOL}`;
+   let rFile = `resources ${moduleName}:${fileName}${os.EOL}`;
    rFile += '{' + os.EOL;
    rFile += 'att json' + os.EOL + os.EOL;
    rFile += generateStringRessources(sectionName);
    rFile += '}';
 
-   fs.appendFileSync(`./rFiles/${sectionName}.r`, rFile);
-   console.log(`${sectionName}.r saved.`);
+   fs.appendFileSync(`./rFiles/${fileName}.r`, windows1252.encode(rFile));
+   console.log(`${fileName}.r saved.`);
 }
 
 function generateStringRessources(sectionName) {

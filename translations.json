@@ -1,13 +1,13 @@
 {
    "fr": {
       "absence": {
-         "absenceDetailLabel": "Détails de l’absence",
+         "absenceDetailLabel": "Détails de l'absence",
          "createAbsenceLabel": "Créer une absence",
          "absenceMenuLabel": "Absence",
          "cancelAbsence": "Supprimer l'absence",
-         "editAbsence": "Modifier l’absence",
+         "editAbsence": "Modifier l'absence",
          "saveAbsence": "OK",
-         "viewAbsence": "Voir les détails de l’absence",
+         "viewAbsence": "Voir les détails de l'absence",
          "reason.placeholder": "Saisir la raison",
          "reason.headers.code": "Code",
          "reason.headers.description": "Description",
@@ -104,11 +104,6 @@
          "activeMessages": "En vigueur",
          "archivedMessages": "Archivés",
          "ackOn": "Transmis le %{date} à %{time}"
-      },
-      "date": {
-         "yesterday": "Hier",
-         "today": "Aujourd'hui",
-         "tomorrow": "Demain"
       },
       "employee": {
          "contactInfoButtonText": "Coordonnées",

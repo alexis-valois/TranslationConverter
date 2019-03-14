@@ -8,5 +8,8 @@
       "flatten-dbg": "node --inspect-brk flatten.js",
       "point-r": "node point-r.js",
       "point-r-dbg": "node --inspect-brk point-r.js"
+   },
+   "dependencies": {
+      "windows-1252": "1.0.0"
    }
 }
