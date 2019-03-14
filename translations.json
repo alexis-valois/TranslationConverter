@@ -8,33 +8,23 @@
          "editAbsence": "Modifier l’absence",
          "saveAbsence": "OK",
          "viewAbsence": "Voir les détails de l’absence",
-         "reason": {
-            "placeholder": "Saisir la raison",
-            "headers": {
-               "code": "Code",
-               "description": "Description",
-               "banks": "Banques"
-            }
-         },
-         "positionOnWorkDay": {
-            "wdStart": "Début du jour de travail",
-            "wdEnd": "Fin du jour de travail",
-            "pieceStart": "Début de la pièce",
-            "pieceEnd": "Fin de la pièce"
-         },
-         "form": {
-            "period": "Période",
-            "reason": "Raison",
-            "note": "Commentaires",
-            "employee": "Employé",
-            "editAbsence": "Mode Édition"
-         },
-         "period": {
-            "allDay": "Toute la journée",
-            "noEndDate": "Jusqu'à nouvel ordre",
-            "startOfDay": "Début de la journée",
-            "endOfDay": "Fin de la journée"
-         }
+         "reason.placeholder": "Saisir la raison",
+         "reason.headers.code": "Code",
+         "reason.headers.description": "Description",
+         "reason.headers.banks": "Banques",
+         "positionOnWorkDay.wdStart": "Début du jour de travail",
+         "positionOnWorkDay.wdEnd": "Fin du jour de travail",
+         "positionOnWorkDay.pieceStart": "Début de la pièce",
+         "positionOnWorkDay.pieceEnd": "Fin de la pièce",
+         "form.period": "Période",
+         "form.reason": "Raison",
+         "form.note": "Commentaires",
+         "form.employee": "Employé",
+         "form.editAbsence": "Mode Édition",
+         "period.allDay": "Toute la journée",
+         "period.noEndDate": "Jusqu'à nouvel ordre",
+         "period.startOfDay": "Début de la journée",
+         "period.endOfDay": "Fin de la journée"
       },
       "arrivals": {
          "absenceStatus": "Absence %{type}",
@@ -79,41 +69,27 @@
          "displayIdPlannedText": "Prévue : ",
          "overtimeAbr": "TS : ",
          "divisionLabel": "Division",
-         "type": {
-            "notWorking": "Ne travaille pas",
-            "pending": "En attente d'affectation",
-            "notPublished": "Le détail de l'affectation n'est pas encore prêt"
-         },
+         "type.notWorking": "Ne travaille pas",
+         "type.pending": "En attente d'affectation",
+         "type.notPublished": "Le détail de l'affectation n'est pas encore prêt",
          "planned": "Affectation prévue",
          "printCardButtonText": "Carte d'agent",
          "actual": "Affectation réelle",
          "note": "Note"
       },
       "navMenu": {
-         "dashboard": {
-            "dashboard": "Tableau de bord"
-         },
-         "crew": {
-            "sectionTitle": "Agents",
-            "assignments": "Affectations",
-            "arrivals": "Arrivées",
-            "requests": "Requêtes",
-            "manpower": "Main-d'oeuvre"
-         },
-         "vehicles": {
-            "sectionTitle": "Véhicules",
-            "yard": "Dépôt",
-            "walkTheYard": "Tournée du dépôt"
-         },
-         "fleet": {
-            "fleet": "Parc"
-         },
-         "events": {
-            "events": "Événements"
-         },
-         "reports": {
-            "reports": "Éditions"
-         }
+         "dashboard.dashboard": "Tableau de bord",
+         "crew.sectionTitle": "Agents",
+         "crew.assignments": "Affectations",
+         "crew.arrivals": "Arrivées",
+         "crew.requests": "Requêtes",
+         "crew.manpower": "Main-d'oeuvre",
+         "vehicles.sectionTitle": "Véhicules",
+         "vehicles.yard": "Dépôt",
+         "vehicles.walkTheYard": "Tournée du dépôt",
+         "fleet.fleet": "Parc",
+         "events.events": "Événements",
+         "reports.reports": "Éditions"
       },
       "messages": {
          "hasMsgLabel": "Messages",
@@ -158,11 +134,9 @@
       "global": {
          "cancel": "Annuler",
          "colon": " : ",
-         "contextMenu": {
-            "cancel": "Supprimer",
-            "edit": "Modifier",
-            "viewDetails": "Voir les détails"
-         },
+         "contextMenu.cancel": "Supprimer",
+         "contextMenu.edit": "Modifier",
+         "contextMenu.viewDetails": "Voir les détails",
          "continue": "Continuer",
          "confirm": "Confirmer",
          "close": "Fermer",
@@ -189,23 +163,19 @@
          "uncoveredWork": "À attribuer"
       },
       "yard": {
-         "activity": {
-            "activities": "Activités",
-            "currentActivity": "Activité courante",
-            "nextActivity": "Prochaine activité",
-            "noUpcomingActivity": "Aucune activité à venir",
-            "remainingTimeBeforeActivity": "commençant dans %{remainingHours}h%{remainingMinutes}"
-         },
+         "activity.activities": "Activités",
+         "activity.currentActivity": "Activité courante",
+         "activity.nextActivity": "Prochaine activité",
+         "activity.noUpcomingActivity": "Aucune activité à venir",
+         "activity.remainingTimeBeforeActivity": "commençant dans %{remainingHours}h%{remainingMinutes}",
          "additional": "Caractéristique additionnelle du véhicule",
          "assignButtonText": "Affecter",
          "blocks": "Voitures",
          "blockErrorMessagesTitle": "Il y a %{messageCount} erreurs",
-         "blockFilterTitle": {
-            "uncovered": "À couvrir",
-            "issues": "Problèmes",
-            "covered": "Couvertes",
-            "all": "Toutes"
-         },
+         "blockFilterTitle.uncovered": "À couvrir",
+         "blockFilterTitle.issues": "Problèmes",
+         "blockFilterTitle.covered": "Couvertes",
+         "blockFilterTitle.all": "Toutes",
          "blocksToCoverButtonText": "Voitures à couvrir",
          "blockVehicleIdPlaceholder": "Spécifiez le véhicule",
          "blockWarningMessagesTitle": "Il y a %{messageCount} avertissements",
@@ -259,33 +229,23 @@
          "editAbsence": "Edit Absence",
          "saveAbsence": "OK",
          "viewAbsence": "View Absence Details",
-         "reason": {
-            "placeholder": "Enter reason",
-            "headers": {
-               "code": "Code",
-               "description": "Description",
-               "banks": "Banks"
-            }
-         },
-         "positionOnWorkDay": {
-            "wdStart": "Start of workday",
-            "wdEnd": "End of workday",
-            "pieceStart": "Start of piece",
-            "pieceEnd": "End of piece"
-         },
-         "form": {
-            "period": "Period",
-            "reason": "Reason",
-            "note": "Comments",
-            "employee": "Employee",
-            "editAbsence": "Edit Mode"
-         },
-         "period": {
-            "allDay": "All day",
-            "noEndDate": "Until further notice",
-            "startOfDay": "Start of day",
-            "endOfDay": "End of day"
-         }
+         "reason.placeholder": "Enter reason",
+         "reason.headers.code": "Code",
+         "reason.headers.description": "Description",
+         "reason.headers.banks": "Banks",
+         "positionOnWorkDay.wdStart": "Start of workday",
+         "positionOnWorkDay.wdEnd": "End of workday",
+         "positionOnWorkDay.pieceStart": "Start of piece",
+         "positionOnWorkDay.pieceEnd": "End of piece",
+         "form.period": "Period",
+         "form.reason": "Reason",
+         "form.note": "Comments",
+         "form.employee": "Employee",
+         "form.editAbsence": "Edit Mode",
+         "period.allDay": "All day",
+         "period.noEndDate": "Until further notice",
+         "period.startOfDay": "Start of day",
+         "period.endOfDay": "End of day"
       },
       "arrivals": {
          "absenceStatus": "Absence %{type}",
@@ -330,41 +290,27 @@
          "displayIdPlannedText": "Planned: ",
          "overtimeAbr": "OT : ",
          "divisionLabel": "Division",
-         "type": {
-            "notWorking": "Not working",
-            "pending": "Pending assignment",
-            "notPublished": "Assignment details are not available yet"
-         },
+         "type.notWorking": "Not working",
+         "type.pending": "Pending assignment",
+         "type.notPublished": "Assignment details are not available yet",
          "planned": "Planned",
          "printCardButtonText": "Time Card",
          "actual": "Actual",
          "note": "Note"
       },
       "navMenu": {
-         "dashboard": {
-            "dashboard": "Dashboard"
-         },
-         "crew": {
-            "sectionTitle": "Crew",
-            "assignments": "Assignments",
-            "arrivals": "Arrivals",
-            "requests": "Requests",
-            "manpower": "Manpower"
-         },
-         "vehicles": {
-            "sectionTitle": "Vehicles",
-            "yard": "Yard",
-            "walkTheYard": "Walk the Yard"
-         },
-         "fleet": {
-            "fleet": "Fleet"
-         },
-         "events": {
-            "events": "Events"
-         },
-         "reports": {
-            "reports": "Reports"
-         }
+         "dashboard.dashboard": "Dashboard",
+         "crew.sectionTitle": "Crew",
+         "crew.assignments": "Assignments",
+         "crew.arrivals": "Arrivals",
+         "crew.requests": "Requests",
+         "crew.manpower": "Manpower",
+         "vehicles.sectionTitle": "Vehicles",
+         "vehicles.yard": "Yard",
+         "vehicles.walkTheYard": "Walk the Yard",
+         "fleet.fleet": "Fleet",
+         "events.events": "Events",
+         "reports.reports": "Reports"
       },
       "messages": {
          "hasMsgLabel": "Messages",
@@ -409,11 +355,9 @@
       "global": {
          "cancel": "Cancel",
          "colon": ": ",
-         "contextMenu": {
-            "cancel": "Cancel",
-            "edit": "Edit",
-            "viewDetails": "View Details"
-         },
+         "contextMenu.cancel": "Cancel",
+         "contextMenu.edit": "Edit",
+         "contextMenu.viewDetails": "View Details",
          "continue": "Continue",
          "confirm": "Confirm",
          "close": "Close",
@@ -440,23 +384,19 @@
          "uncoveredWork": "Uncovered work"
       },
       "yard": {
-         "activity": {
-            "activities": "Activities",
-            "currentActivity": "Current activity",
-            "nextActivity": "Next activity",
-            "noUpcomingActivity": "No upcoming activity",
-            "remainingTimeBeforeActivity": "in %{remainingHours}h%{remainingMinutes} from now"
-         },
+         "activity.activities": "Activities",
+         "activity.currentActivity": "Current activity",
+         "activity.nextActivity": "Next activity",
+         "activity.noUpcomingActivity": "No upcoming activity",
+         "activity.remainingTimeBeforeActivity": "in %{remainingHours}h%{remainingMinutes} from now",
          "additional": "Additional vehicle characteristic",
          "assignButtonText": "Assign",
          "blocks": "Blocks",
          "blockErrorMessagesTitle": "There are %{messageCount} errors",
-         "blockFilterTitle": {
-            "uncovered": "To Cover",
-            "issues": "Issues",
-            "covered": "Covered",
-            "all": "All"
-         },
+         "blockFilterTitle.uncovered": "To Cover",
+         "blockFilterTitle.issues": "Issues",
+         "blockFilterTitle.covered": "Covered",
+         "blockFilterTitle.all": "All",
          "blocksToCoverButtonText": "Blocks to Cover",
          "blockVehicleIdPlaceholder": "Enter the vehicle",
          "blockWarningMessagesTitle": "There are %{messageCount} warnings",

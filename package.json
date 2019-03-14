@@ -5,6 +5,8 @@
    "license": "MIT",
    "scripts": {
       "flatten": "node flatten.js",
-      "flatten-dbg": "node --inspect-brk flatten.js"
+      "flatten-dbg": "node --inspect-brk flatten.js",
+      "point-r": "node point-r.js",
+      "point-r-dbg": "node --inspect-brk point-r.js"
    }
 }

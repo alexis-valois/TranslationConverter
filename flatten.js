@@ -14,8 +14,19 @@ const inputFile = process.argv[2];
 let outputData = {};
 const data = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
 
-outputData.fr = flattenData(data.fr);
-outputData.en = flattenData(data.en);
+let dataFr = {};
+let dataEn = {};
+
+for (let section in data.fr) {
+   dataFr[section] = flattenData(data.fr[section]);
+}
+
+for (let section in data.en) {
+   dataEn[section] = flattenData(data.en[section]);
+}
+
+outputData.fr = dataFr;
+outputData.en = dataEn;
 
 fs.writeFileSync("./out.json", JSON.stringify(outputData), 'utf8');
 console.log('file out.json saved.');
