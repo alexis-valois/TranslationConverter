@@ -21,7 +21,6 @@ for ( let sectionName in data.fr ) {
 }
 
 function generateRFile(sectionName) {
-   const fileName = "DW" + sectionName.charAt(0).toUpperCase() + sectionName.slice(1);
    let moduleName = '';
 
    if (sectionName === 'yard')
@@ -30,6 +29,8 @@ function generateRFile(sectionName) {
       moduleName = 'dw';
    else
       moduleName = 'dwc';
+
+   const fileName = moduleName.toUpperCase() + sectionName.charAt(0).toUpperCase() + sectionName.slice(1);
 
    let rFile = `resources ${moduleName}:${fileName}${os.EOL}`;
    rFile += '{' + os.EOL;
